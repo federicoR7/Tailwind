@@ -20,6 +20,12 @@
 }
 
 .content-area {
-    @apply bg-green-200
+    @apply bg-green-200;
     height: theme('spacing.128');
+}
+
+@media screen(md) {
+    body {
+        @apply bg-black text-white;
+    }
 }
